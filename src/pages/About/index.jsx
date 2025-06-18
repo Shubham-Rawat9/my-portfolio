@@ -1,0 +1,34 @@
+import React from 'react'
+import { Container, Row ,Col} from 'react-bootstrap';
+
+const About = () => {
+  return (
+   <Container className='py-5'>
+    <Row>
+      <Col md={4}>
+      <h1>A</h1>
+      </Col>
+        <Col md={8}>
+        <h2 className='text-center fs-1 fw-bold'>About pages :</h2>
+        <p className="txt-head py-2">Welcome to my web Developer portfolio! i'm Shubham Rawat a skilled and
+                            creative web developer
+                            with a passion for creating beautiful,responsive,and user friendly Websites. i've worked on
+                            a variety of web Projects, ranging from personal E-commerce platforms. </p>
+
+                            <ul className="py-3">
+                            <li className="list-unstyled"><span className="txt-nav-sec fs-5">Name :</span> <span className="txt-head fs-5">Shubham Rawat</span></li>
+                            <li className="list-unstyled"><span className="txt-nav-sec fs-5">Address :</span><span className="txt-head fs-5">Dwarka more ,New Delhi </span></li>
+                            <li className="list-unstyled"><span className="txt-nav-sec fs-5">Email :</span><span className="txt-head fs-5">shubhamrawat@gmail.com</span></li>
+                            <li className="list-unstyled"><span className="txt-nav-sec fs-5">Phone :</span><span className="txt-head fs-5"><a className="txt-head text-decoration-none" href="tel:+917249983416">+917249983416</a></span></li>
+
+                        </ul>
+
+
+
+            </Col>
+    </Row>
+   </Container>
+  )
+}
+
+export default About;
