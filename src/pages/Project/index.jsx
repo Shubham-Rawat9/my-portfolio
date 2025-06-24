@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row ,Col } from 'react-bootstrap';
 import Testimonials from '../Testimonials';
+import myimage from '../../assets/images/developer2.png';
 
 
 const Project = () => {
@@ -24,7 +25,7 @@ const Project = () => {
               </Row>
             </Col>
             <Col md={6}>
-              <h2>image</h2>
+             <img src={myimage} alt="image" className='img-fluid' />
             </Col>
             </Row>
     </Container>

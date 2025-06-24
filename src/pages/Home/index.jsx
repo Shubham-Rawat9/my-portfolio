@@ -47,7 +47,7 @@
 
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-
+import myimage from '../../assets/images/developer2.png';
 import TypedText from '../../components/TypedJs';
 import About from '../About';
 import Service from '../Service';
@@ -59,7 +59,7 @@ const Home = () => (
     <section>
       <Container>
         <Row className="py-5">
-          <Col md={8}>
+          <Col md={7}>
             <h2 className="txt-head">
               Hi there, I am{' '}
               <span className="text-secondary display-6 fw-semibold">Shubham Rawat</span> <br />
@@ -67,7 +67,7 @@ const Home = () => (
               <span className="text-secondary">
                 <TypedText />
               </span>
-              <span className="typed-cursor typed-cursor--blink px-3" aria-hidden="true">|</span>
+              {/* <span className="typed-cursor typed-cursor--blink px-3" aria-hidden="true">|</span> */}
             </h2>
 
             <div className="py-5">
@@ -80,11 +80,9 @@ const Home = () => (
             </div>
           </Col>
 
-          <Col md={4  }>
-            <h2>
-              <marquee direction="left">isme image aayegi</marquee>
-            </h2>
-            {/* <img src={myimage} alt="banner-image" className="img-fluid" /> */}
+          <Col md={5}>
+           
+            <img src={myimage} alt="image" className="img-fluid" />
           </Col>
         </Row>
       </Container>

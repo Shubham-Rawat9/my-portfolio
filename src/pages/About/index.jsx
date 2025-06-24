@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row ,Col} from 'react-bootstrap';
+import myimage from '../../assets/images/developer2.png';
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
    <Container className='py-5'>
     <Row>
       <Col md={4}>
-      <h1>A</h1>
+      <img src={myimage} alt="image" className='img-fluid' />
       </Col>
         <Col md={8}>
         <h2 className='text-center fs-1 fw-bold'>About pages :</h2>
