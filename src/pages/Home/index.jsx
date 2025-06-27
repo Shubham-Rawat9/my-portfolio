@@ -58,7 +58,7 @@ const Home = () => (
   <>
     <section>
       <Container>
-        <Row className="py-5">
+        <Row className="align-items-center">
           <Col md={7}>
             <h2 className="txt-head">
               Hi there, I am{' '}
@@ -70,12 +70,10 @@ const Home = () => (
               {/* <span className="typed-cursor typed-cursor--blink px-3" aria-hidden="true">|</span> */}
             </h2>
 
-            <div className="py-5">
-              <a className="btn btn-outline-dark border-dark txt-link-btn px-3 mx-5" href="#">
-                Hire Me
-              </a>
+            <div className="py-5 ">
+              
               <a className="btn btn-outline-dark border-dark txt-link-btn" href="#">
-                View Work
+                Download CV
               </a>
             </div>
           </Col>
