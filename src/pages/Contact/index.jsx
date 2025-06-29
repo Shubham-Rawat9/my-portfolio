@@ -8,31 +8,31 @@ const Contact = () => {
     <section>
    <Container>
     <Row>
-            <h2 className='text-center fs-1 fw-bold'> Contact Me</h2>
-            
+        <Col>
+            <h2 className='text-center fs-1 fw-bold'> Contact Me :</h2>
+
+        </Col>            
     </Row>
-    <Row>
-        <Col md={4}>
-         {/* <i className="fa fa-mobile fs-4"></i> */}
+    <Row className='gy-4 py-5 text-center text-md-start'>
+        <Col xs={12} md={4} className='box-hover'>
+         
           
            <FontAwesomeIcon icon={faMobile} className="fs-4" />
                             <div className="py-3">
                             <h5 className="text-capitalize">contact number</h5>
-                            <p><a className="txt-head text-decoration-none" href="tel:+91">+917249983416</a></p>
+                            <p><a className="txt-head text-decoration-none text-dark" href="tel:+91">+917249983416</a></p>
                             </div>
         </Col>
-        <Col md={4}>
-         {/* <i className="fa fa-paper-plane fs-4"></i> */}
+        <Col xs={12} md={4} className='box-hover'>
            <FontAwesomeIcon icon={faPaperPlane} className="fs-4" />
 
                             <div className="py-3">
                             <h5>Email</h5>
-                            <p><a className="txt-head text-decoration-none"
+                            <p><a className="txt-head text-decoration-none text-dark"
                                     href="mailto:shubhmarawat97614@gmail.com">shubamrawat97614@gmail.com</a></p>
                                     </div>
         </Col>
-        <Col md={4}>
-         {/* <i className="fa-solid fa-link fs-4"></i> */}
+        <Col xs={12} md={4} className='box-hover'>
            <FontAwesomeIcon icon={faLink} className="fs-4" />
 
                             <div className="py-3">

@@ -6,14 +6,14 @@ const Testimonials = () =>{
                 <section>
         <Container>
             <Row className=" py-5">
-                <div className="text-center">
+                <Col className="text-center">
                     <p className="txt-head fw-lighter text-decoration-underline">Testimonials</p>
                     <h2 className="txt-head fs-2">What client says about me ?</h2>
-                </div>
+                </Col>
 
             </Row>
-            <Row className=" py-4 justify-content-evenly">
-                <Col md={3} className=" border border-1 bg-white py-5 box-hover">
+            <Row className=" gy-4 py-4 justify-content-evenly">
+                <Col xs={12} sm={10} md={3} className=" border border-1 bg-white py-5 box-hover">
                     <p>I've been working with these guys for a long time and i can say that my experience is really good
                     </p>
                     <div className="d-flex align-items-center">
@@ -26,7 +26,7 @@ const Testimonials = () =>{
                     </div>
                 </Col>
 
-                <Col md={3} className=" border border-1 bg-white py-5 box-hover">
+                <Col xs={12} sm={10} md={3} className=" border border-1 bg-white py-5 box-hover">
                     <p>I've been working with these guys for a long time and i can say that my experience is really good
                     </p>
                     <div className="d-flex align-items-center ">
@@ -36,7 +36,7 @@ const Testimonials = () =>{
                         </div>
                     </div>
                 </Col>
-                <Col md={3} className=" border border-1 bg-white py-5 box-hover">
+                <Col xs={12} sm={10} md={3} className=" border border-1 bg-white py-5 box-hover">
                     <p>I've been working with these guys for a long time and i can say that my experience is really good
                     </p>
                     <div className="d-flex align-items-center">

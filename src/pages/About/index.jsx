@@ -7,23 +7,29 @@ const About = () => {
     <section>
    <Container className='py-5'>
     <Row>
-      <Col md={4}>
+      
+        <h2 className='text-center fs-1 fw-bold'>About :</h2>
+
+     
+      <Col md={5}  className='d-none d-md-block'>
       <img src={myimage} alt="image" className='img-fluid' />
       </Col>
-        <Col md={8}>
-        <h2 className='text-center fs-1 fw-bold'>About pages :</h2>
-        <p className="txt-head py-2">Welcome to my web Developer portfolio! i'm Shubham Rawat a skilled and
+        <Col xs={12} md={7} className='d-flex flex-column justify-content-center align-items-center text-center text-md-start'>
+        <span className="fs-5 fst-italic  py-2">Welcome to my web Developer portfolio! i'm Shubham Rawat a skilled and
                             creative web developer
                             with a passion for creating beautiful,responsive,and user friendly Websites. i've worked on
-                            a variety of web Projects, ranging from personal E-commerce platforms. </p>
+                            a variety of web Projects, ranging from personal E-commerce platforms. </span>
 
-                            <ul className="py-3">
-                            <li className="list-unstyled"><span className="txt-nav-sec fs-5">Name :</span> <span className="txt-head fs-5">Shubham Rawat</span></li>
-                            <li className="list-unstyled"><span className="txt-nav-sec fs-5">Address :</span><span className="txt-head fs-5">Dwarka more ,New Delhi </span></li>
-                            <li className="list-unstyled"><span className="txt-nav-sec fs-5">Email :</span><span className="txt-head fs-5">shubhamrawat@gmail.com</span></li>
-                            <li className="list-unstyled"><span className="txt-nav-sec fs-5">Phone :</span><span className="txt-head fs-5"><a className="txt-head text-decoration-none" href="tel:+917249983416">+917249983416</a></span></li>
-
+                            <ul className="py-5 text-center list-unstyled">
+                            <li className="mb-2"><span className="fw-semibold text-dark fs-4">Name :</span> <span className="ms-2 fs-5">Shubham Rawat</span></li>
+                            <li className="mb-2"><span className="fw-semibold text-dark fs-4">Address :</span><span className="ms-2 fs-5">Dwarka more ,New Delhi </span></li>
+                            <li className="mb-2"><span className="fw-semibold text-dark fs-4">Email :</span><span className="ms-2 fs-5">shubhamrawat@gmail.com</span></li>
+                            <li className="mb-2"><span className="fw-semibold text-dark fs-4">Phone :</span><span className="ms-2 fs-5"><a className="txt-head text-decoration-none text-dark" href="tel:+917249983416">+917249983416</a></span></li>
                         </ul>
+                         
+   
+
+
 
           
 
@@ -37,59 +43,3 @@ const About = () => {
 
 export default About;
 
-// new code 👇
-
-// import React from 'react';
-// import { Container, Row, Col } from 'react-bootstrap';
-// // import TypedText from ''; // adjust path if needed
-// import TypedText from '../../components/TypedJs';
-
-// const About = () => {
-//   return (
-//     <section>
-//       <Container className="py-5">
-//         <Row>
-//           <Col md={4}>
-//             <h1>A</h1>
-//           </Col>
-//           <Col md={8}>
-//             <h2 className="text-center fs-1 fw-bold">About Page :</h2>
-
-//             {/* Typed Text goes here */}
-//             <p className="txt-head py-2">
-//               <TypedText />
-//             </p>
-
-//             <ul className="py-3">
-//               <li className="list-unstyled">
-//                 <span className="txt-nav-sec fs-5">Name :</span>{' '}
-//                 <span className="txt-head fs-5">Shubham Rawat</span>
-//               </li>
-//               <li className="list-unstyled">
-//                 <span className="txt-nav-sec fs-5">Address :</span>{' '}
-//                 <span className="txt-head fs-5">Dwarka More, New Delhi</span>
-//               </li>
-//               <li className="list-unstyled">
-//                 <span className="txt-nav-sec fs-5">Email :</span>{' '}
-//                 <span className="txt-head fs-5">shubhamrawat@gmail.com</span>
-//               </li>
-//               <li className="list-unstyled">
-//                 <span className="txt-nav-sec fs-5">Phone :</span>{' '}
-//                 <span className="txt-head fs-5">
-//                   <a
-//                     className="txt-head text-decoration-none"
-//                     href="tel:+917249983416"
-//                   >
-//                     +91 7249983416
-//                   </a>
-//                 </span>
-//               </li>
-//             </ul>
-//           </Col>
-//         </Row>
-//       </Container>
-//     </section>
-//   );
-// };
-
-// export default About;

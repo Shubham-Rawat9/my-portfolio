@@ -21,10 +21,10 @@ const AppNavbar = () => {
     //  new code 😎
 
     <>
-      {["md"].map((expand) => (
-        <Navbar key={expand} expand={expand} className=" mb-3">
+      {["lg"].map((expand) => (
+        <Navbar key={expand} expand={expand} className=" mb-3 position-relative">
           <Container fluid>
-            <Navbar.Brand href="#"><h5>Shubham Rawat</h5></Navbar.Brand>
+            <Navbar.Brand href="#"><p className="text-up-down fw-bolder  position-absolute">Shubham Rawat</p></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -37,14 +37,14 @@ const AppNavbar = () => {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="d-flex justify-content-center align-items-center gap-5 flex-grow-1 pe-3 ">
-                  <Link to="/" className=" text-dark text-decoration-none fs-6">
+                <Nav className="d-flex justify-content-end align-items-center gap-5 flex-grow-1 pe-3 ">
+                  <Link to="/" className=" text-dark text-decoration-none fs-6 fw-medium">
                     Home{" "}
                   </Link>
                   <NavLink
                     to={"/about"}
                     className={({ isActive }) =>
-                      `nav-link  text-dark fs-6${
+                      `nav-link  text-dark fs-6 fw-medium ${
                         isActive ? "active" : ""
                       }`
                     }
@@ -54,7 +54,7 @@ const AppNavbar = () => {
                   <NavLink
                     to={"/service"}
                     className={({ isActive }) =>
-                      `nav-link  text-dark fs-6${
+                      `nav-link  text-dark fw-medium fs-6${
                         isActive ? "active" : ""
                       }`
                     }
@@ -64,7 +64,7 @@ const AppNavbar = () => {
                   <NavLink
                     to={"/project"}
                     className={({ isActive }) =>
-                      `nav-link  text-dark fs-6${
+                      `nav-link  text-dark fw-medium fs-6${
                         isActive ? "active" : ""
                       }`
                     }
@@ -74,7 +74,7 @@ const AppNavbar = () => {
                   <NavLink
                     to={"/contact"}
                     className={({ isActive }) =>
-                      `nav-link  text-dark fs-6${
+                      `nav-link  text-dark fw-medium fs-6${
                         isActive ? "active" : ""
                       }`
                     }
