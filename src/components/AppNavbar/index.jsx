@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
@@ -7,42 +7,38 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
 const AppNavbar = () => {
-  return (
-    // <Nav className='d-flex align-items-center justify-content-evenly'>
-    //     <Link to="/" className="text-decoration-none text-dark fs-6">Home </Link>
-    //     <NavLink to={"/about"} className={({ isActive }) => `nav-link text-decoration-none text-dark fs-6${isActive ? 'active' : ''}`}>About</NavLink>
-    //     <NavLink to={"/service"} className={({ isActive }) => `nav-link text-decoration-none text-dark fs-6${isActive ? 'active' : ''}`}>Services</NavLink>
-    //     <NavLink to={"/project"} className={({ isActive }) => `nav-link text-decoration-none text-dark fs-6${isActive ? 'active' : ''}`}>Project</NavLink>
-    //     <NavLink to={"/contact"} className={({ isActive }) => `nav-link text-decoration-none text-dark fs-6${isActive ? 'active' : ''}`}>Contact</NavLink>
 
-    //     <Button variant="secondary">Lets'Talk</Button>
-    // </Nav>
+    const [showOffCanvas , setShowOffCanvas] = useState(false);
 
-    //  new code 😎
+    const handleClose = () => setShowOffCanvas(false);
+    const handleShow = () => setShowOffCanvas(true);
 
+
+  return ( 
+    
     <>
       {["lg"].map((expand) => (
-        <Navbar key={expand} expand={expand} className=" mb-3 position-relative">
+        <Navbar key={expand} expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="#"><p className="text-up-down fw-bolder  position-absolute">Shubham Rawat</p></Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Brand href="#"><span className="fw-lighter">Shubham Rawat</span></Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} onClick={handleShow} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-              placement="end"
+              placement="end"     
+              show = {showOffCanvas}
+              onHide = {handleClose}
             >
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
-                </Offcanvas.Title>
+                
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="d-flex justify-content-end align-items-center gap-5 flex-grow-1 pe-3 ">
-                  <Link to="/" className=" text-dark text-decoration-none fs-6 fw-medium">
+                  <Link to="/" onClick={handleClose} className=" text-dark text-decoration-none fs-6 fw-medium">
                     Home{" "}
                   </Link>
                   <NavLink
-                    to={"/about"}
+                    to={"/about"} onClick={handleClose}
                     className={({ isActive }) =>
                       `nav-link  text-dark fs-6 fw-medium ${
                         isActive ? "active" : ""
@@ -52,7 +48,7 @@ const AppNavbar = () => {
                     About
                   </NavLink>
                   <NavLink
-                    to={"/service"}
+                    to={"/service"} onClick={handleClose}
                     className={({ isActive }) =>
                       `nav-link  text-dark fw-medium fs-6${
                         isActive ? "active" : ""
@@ -62,7 +58,7 @@ const AppNavbar = () => {
                     Services
                   </NavLink>
                   <NavLink
-                    to={"/project"}
+                    to={"/project"} onClick={handleClose}
                     className={({ isActive }) =>
                       `nav-link  text-dark fw-medium fs-6${
                         isActive ? "active" : ""
@@ -72,7 +68,7 @@ const AppNavbar = () => {
                     Project
                   </NavLink>
                   <NavLink
-                    to={"/contact"}
+                    to={"/contact"}  onClick={handleClose}
                     className={({ isActive }) =>
                       `nav-link  text-dark fw-medium fs-6${
                         isActive ? "active" : ""
@@ -89,7 +85,6 @@ const AppNavbar = () => {
       ))}
     </>
 
-    // anoter new code 😂
   );
 };
 

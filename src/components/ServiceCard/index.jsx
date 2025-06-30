@@ -6,10 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ServiceCard = ({ icon ,title , desc}) =>{
     return(
-          <div>
+          <div className="text-center">
              { <FontAwesomeIcon icon={icon} className="fs-3" />}
-      <h3>{title}</h3>
-      <p>{desc}</p>
+      <h3 className=" mt-3">{title}</h3>
+      <p className="text-start">{desc}</p>
     </div>
 
     )

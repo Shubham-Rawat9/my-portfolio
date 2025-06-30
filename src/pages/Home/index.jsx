@@ -24,7 +24,9 @@ const Home = () => (
             </h2>
 
             <div className="py-5 ">
-              <a class="btn btn-outline-dark border-dark w-25 m-auto" href="#">Download CV</a>
+              {/* <a className="btn btn-outline-dark border-dark m-auto" href="#">Download CV</a> */}
+              <a className="btn btn-outline-dark border-dark m-auto" href="/cv.pdf" download> Download CV </a>
+
             </div>
           </Col>
 

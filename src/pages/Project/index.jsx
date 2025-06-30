@@ -23,7 +23,9 @@ const Project = () => {
                 <h5>Do you have any Project? Let’s Talk</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, placeat pariatur enim provident officiis perspiciatis quam maiores iure! Ea distinctio ?</p>
            
-                <a className="btn btn-outline-dark border-dark txt-link-btn w-25 m-auto" href="#">Hire Me</a>
+                
+                <a class="btn btn-outline-dark border-dark txt-link-btn w-25 m-auto"
+                                    href="mailto:shubhmarawat97614@gmail.com">Hire me</a>
               </Row>
             </Col>
             <Col xs={12} md={6} className='d-none d-sm-block text-center'>
