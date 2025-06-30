@@ -15,6 +15,43 @@ const Project = () => {
            <h2 className='text-center fs-1 fw-bold'> My Projects : </h2>
     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
         </Col>
+      {/* new code */}
+
+        <Row>
+          <Col>
+<div className="project-card">
+  {/* first project */}
+  <div className="card">
+    <p className="title">
+     Project 1
+    </p>
+  </div>
+  
+  {/* second project */}
+     <div className="card">
+    <p className="title">
+     Project 2
+    </p>
+  </div>
+
+    {/* third project */}
+     <div className="card">
+    <p className="title">
+     Project 3
+    </p>
+  </div>
+
+{/* four project */}
+ <div className="card">
+    <p className="title">
+     Project 4
+    </p>
+  </div>
+
+</div>
+          </Col>
+        </Row>
+      {/* new code */}
 
         </Row>
         <Row className='py-3'>
@@ -24,7 +61,7 @@ const Project = () => {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, placeat pariatur enim provident officiis perspiciatis quam maiores iure! Ea distinctio ?</p>
            
                 
-                <a class="btn btn-outline-dark border-dark txt-link-btn w-25 m-auto"
+                <a className="btn btn-outline-dark border-dark txt-link-btn w-25 m-auto"
                                     href="mailto:shubhmarawat97614@gmail.com">Hire me</a>
               </Row>
             </Col>

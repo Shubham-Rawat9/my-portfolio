@@ -15,18 +15,18 @@ const Contact = () => {
         </Col>            
     </Row>
     <Row className='gy-4 py-5 text-center text-md-start'>
-        <Col xs={12} md={4} className='box-hover'>
+        <Col xs={12} md={4} className='box-hover text-center'>
          
           
            <FontAwesomeIcon icon={faMobile} className="fs-4" />
                             <div className="py-3">
                             <h5 className="text-capitalize">contact number</h5>
                             
-                            <a class="txt-head text-decoration-none text-dark" href="tel:+917249983416">✌️</a>
+                            <a className="txt-head text-decoration-none text-dark" href="tel:+917249983416">✌️</a>
                             
                             </div>
         </Col>
-        <Col xs={12} md={4} className='box-hover'>
+        <Col xs={12} md={4} className='box-hover text-center'>
            <FontAwesomeIcon icon={faPaperPlane} className="fs-4" />
 
                             <div className="py-3">
@@ -35,12 +35,12 @@ const Contact = () => {
                                     href="mailto:shubhmarawat97614@gmail.com">shubamrawat97614@gmail.com</a></p>
                                     </div>
         </Col>
-        <Col xs={12} md={4} className='box-hover'>
+        <Col xs={12} md={4} className='box-hover text-center'>
            <FontAwesomeIcon icon={faLink} className="fs-4" />
 
                             <div className="py-3">
                             <h5>Social handle</h5>
-                            <ul className="d-flex align-content-start">
+                            <ul className="d-flex justify-content-center">
                               
                                 <li className="list-unstyled">
         <a href="https://github.com/Shubham-Rawat9" target="_blank" rel="noopener noreferrer">
