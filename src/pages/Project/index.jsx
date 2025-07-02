@@ -17,40 +17,7 @@ const Project = () => {
         </Col>
       {/* new code */}
 
-        <Row>
-          <Col>
-<div className="project-card">
-  {/* first project */}
-  <div className="card">
-    <p className="title">
-     Project 1
-    </p>
-  </div>
-  
-  {/* second project */}
-     <div className="card">
-    <p className="title">
-     Project 2
-    </p>
-  </div>
-
-    {/* third project */}
-     <div className="card">
-    <p className="title">
-     Project 3
-    </p>
-  </div>
-
-{/* four project */}
- <div className="card">
-    <p className="title">
-     Project 4
-    </p>
-  </div>
-
-</div>
-          </Col>
-        </Row>
+        <h1>portfolio section edit here </h1>
       {/* new code */}
 
         </Row>

@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ServiceCard from '../../components/ServiceCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {   faLayerGroup ,faUserGroup , faCamera , faDesktop , faGear } from '@fortawesome/free-solid-svg-icons';
-import { faChromecast } from '@fortawesome/free-brands-svg-icons';
+import {  faLaptopCode  , faMobileAlt ,faPalette  , faSearch ,faLayerGroup ,faUserGroup , faCamera , faDesktop , faGear } from '@fortawesome/free-solid-svg-icons';
+// import { FaLaptopCode } from '@fortawesome/free-brands-svg-icons';
 
 
 const Service = () => {
@@ -20,29 +20,35 @@ const Service = () => {
     </Row>
            {/* first card row start*/}
       <Row className=" justify-content-evenly py-5"> 
-                    <Col xs={12} sm={6} md={3} className="shadow p-4 mb-5 bg-body-tertiary rounded bgm-card i-card">
+                    <Col xs={12} sm={6} md={3} className="shadow p-4 mb-5 bg-body-tertiary rounded  i-card">
                            
-                                <ServiceCard  icon={faChromecast } title={"B stratagy"} desc={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, reiciendis cumque, error adminimanemo repellendus sapiente facilis sed, natus rem cupiditate suscipit esse? Illo corporis molestias odit suscipit odio"}/>
+                                <ServiceCard  icon={faLaptopCode } title={" Responsive Web development"} desc={"Responsive websites using React, HTML, CSS , JavaScript & React"}/>
                     </Col>
-                    <Col xs={12} sm={6} md={3} className=" bgm-card  shadow p-4 mb-5 bg-body-tertiary rounded i-card">
+                    <Col xs={12} sm={6} md={3} className="   shadow p-4 mb-5 bg-body-tertiary rounded i-card">
                        
                         
-                            <ServiceCard icon={faLayerGroup } title={"Development"} desc={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat hic quo perspiciatis Molestias maxime quae minus soluta id ducimus nemo velit accusamus magnam similique omni architecto delectus nostrum!"}/>
+                            <ServiceCard icon={faMobileAlt  } title={"Mobile-Friendly Design"} desc={"Optimized design for all screen sizes and devices"}/>
                     </Col>
-                    <Col xs={12} sm={6} md={3} className="bgm-card  shadow p-3 mb-5 bg-body-tertiary rounded i-card">
+                    <Col xs={12} sm={6} md={3} className="  shadow p-3 mb-5 bg-body-tertiary rounded i-card">
                         
                         
-                            <ServiceCard icon={faUserGroup } title={"Market Reporting"} desc={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat hic quo perspiciatis Molestias maxime quae minus soluta id ducimus nemo velit accusamus magnam similique omni architecto delectus nostrum!"}/>
+                            <ServiceCard icon={faPalette  } title={"  Converting Designs to Code"} desc={"Clean, intuitive interfaces with a focus on user experience"}/>
+
+                    </Col>
+                         <Col xs={12} sm={6} md={3} className="   shadow p-4 mb-5 bg-body-tertiary rounded i-card">
+                        
+                        
+                            <ServiceCard icon={faSearch  } title={"SEO-Friendly Front-End"} desc={"Semantic HTML, optimized meta tags, accessible images, and fast-loading responsive designs"}/>
 
                     </Col>
                 </Row>
                 {/* first card row end */}
                 {/* second card row start */}
-                  <Row className=" justify-content-evenly py-3">
+                  {/* <Row className=" justify-content-evenly py-3">
                     <Col xs={12} sm={6} md={3} className="bgm-card   shadow p-4 mb-5 bg-body-tertiary rounded i-card">
                         
                         
-                            <ServiceCard icon={faCamera } title={"Graphic Design"} desc={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat hic quo perspiciatis Molestias maxime quae minus soluta id ducimus nemo velit accusamus magnam similique omni architecto delectus nostrum!"}/>
+                            <ServiceCard icon={faSearch  } title={"SEO-Friendly Front-End"} desc={"Semantic HTML, optimized meta tags, accessible images, and fast-loading responsive designs"}/>
 
                     </Col>
                     <Col xs={12} sm={6} md={3} className="bgm-card  shadow p-4 mb-5 bg-body-tertiary rounded i-card">
@@ -57,7 +63,7 @@ const Service = () => {
                             <ServiceCard icon={faGear } title={"Other Services"} desc={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat hic quo perspiciatis Molestias maxime quae minus soluta id ducimus nemo velit accusamus magnam similique omni architecto delectus nostrum!"}/>
 
                     </Col>
-                </Row>
+                </Row> */}
                 {/* second card row end */}
    </Container>
    </section>
