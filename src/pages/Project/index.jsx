@@ -13,11 +13,28 @@ const Project = () => {
         <Row className='text-center'>
           <Col>   
            <h2 className='text-center fs-1 fw-bold'> My Projects : </h2>
-    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    <p>Passionate frontend developer crafting seamless and engaging user experiences through innovative design and cutting-edge technology.</p>
         </Col>
       {/* new code */}
-
-        <h1>portfolio section edit here </h1>
+        <Row className='py-4'>
+          <Col md={6}> 
+                  <h2>project first</h2>
+                  <div>
+                    <img src="" alt="img-loading" />
+                    <div>
+                      <a rel="noreferrer" class="text" href="https://shoppingshirt.netlify.app/" target="_blank">SHOPPING SITE</a>
+                    </div>
+                  </div>
+          </Col>
+          <Col md={6}> <h2>project second</h2>
+            <div>
+                    <img src="" alt="img-loading" />
+                    <div>
+                      <a rel="noreferrer" class="text" href="https://shoppingshirt.netlify.app/" target="_blank">SHOPPING SITE</a>
+                    </div>
+                  </div></Col>
+        </Row>
+        
       {/* new code */}
 
         </Row>

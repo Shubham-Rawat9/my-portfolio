@@ -9,7 +9,7 @@ const ServiceCard = ({ icon ,title , desc}) =>{
           <div className="text-center">
              { <FontAwesomeIcon icon={icon} className="fs-3" />}
       <h3 className=" mt-3">{title}</h3>
-      <p className="text-start">{desc}</p>
+      <p className="text-start mt-2">{desc}</p>
     </div>
 
     )
