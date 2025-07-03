@@ -13,9 +13,8 @@ const Service = () => {
                                 <Row className='text-center'>
                                         <Col>
                                                 <h2 className="fs-1 fw-bold">Services :</h2>
-                                                <h2 className="txt-head py-2">I do awesome services for my clients</h2>
-                                                <p className="txt-head">Far far away, behind the word mountains, far from the countries Vokalia and
-                                                        Consonantia</p>
+                                                {/* <h2 className="txt-head py-2">I do awesome services for my clients</h2> */}
+                                                <p className="lead text-muted">Bringing your ideas to life with clean, responsive, and high-performance front-end development</p>
                                         </Col>
                                 </Row>
                                 {/* first card row start*/}

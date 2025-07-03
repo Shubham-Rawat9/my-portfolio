@@ -15,7 +15,7 @@ const Home = () => (
           <Col xs={7} sm={10} md={7} lg={6} className=' mx-auto text-center text-md-start position-relative'>
             <h2 className="txt-head">
               Hi there, I am{' '}
-              <span className="text-secondary display-6 fw-semibold">Shubham Rawat</span> <br />
+              <span className="text-muted fs-1 lh-1 font-monospace fw-bold">Shubham Rawat</span> <br />
               and I am a passionate <br />
               <span className="text-secondary">
                 <TypedText />
