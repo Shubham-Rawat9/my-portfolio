@@ -5,7 +5,7 @@ const Footer = () => {
   return (
         <Container>
           <Row>
-            <p className='text-center'>ⒸCopyright Personal All Rights Reserved</p>
+            <p className='text-center'><span className='text-danger fw-bold'>Ⓒ</span>Copyright <span className='fw-bold text-muted'>@Shubham Rawat</span>   All Rights Reserved</p>
           </Row>
         </Container>
   )

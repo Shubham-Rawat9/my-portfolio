@@ -15,7 +15,7 @@ const About = () => {
       <img src={myimage} alt="image" className='img-fluid' />
       </Col>
         <Col xs={12} md={7} className='d-flex flex-column justify-content-center align-items-center text-center text-md-start'>
-        <span className="fs-5 fst-italic  py-2">Welcome to my web Developer portfolio! i'm Shubham Rawat a skilled and
+        <span className="fs-5   py-2">Welcome to my web Developer portfolio! i'm Shubham Rawat a skilled and
                             creative web developer
                             with a passion for creating beautiful,responsive,and user friendly Websites. i've worked on
                             a variety of web Projects, ranging from personal E-commerce platforms. </span>

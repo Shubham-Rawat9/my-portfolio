@@ -18,7 +18,7 @@ const Contact = () => {
         <Col xs={12} md={4} className='box-hover text-center'>
          
           
-           <FontAwesomeIcon icon={faMobile} className="fs-4" />
+           <FontAwesomeIcon icon={faMobile} className="fs-4 text-muted" />
                             <div className="py-3">
                             <h5 className="text-capitalize">contact number</h5>
                             
@@ -27,7 +27,7 @@ const Contact = () => {
                             </div>
         </Col>
         <Col xs={12} md={4} className='box-hover text-center'>
-           <FontAwesomeIcon icon={faPaperPlane} className="fs-4" />
+           <FontAwesomeIcon icon={faPaperPlane} className="fs-4 text-muted" />
 
                             <div className="py-3">
                             <h5>Email</h5>
@@ -36,7 +36,7 @@ const Contact = () => {
                                     </div>
         </Col>
         <Col xs={12} md={4} className='box-hover text-center'>
-           <FontAwesomeIcon icon={faLink} className="fs-4" />
+           <FontAwesomeIcon icon={faLink} className="fs-4 text-muted" />
 
                             <div className="py-3">
                             <h5>Social handle</h5>
@@ -44,16 +44,16 @@ const Contact = () => {
                               
                                 <li className="list-unstyled">
         <a href="https://github.com/Shubham-Rawat9" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} className="fs-5 px-2 text-dark" />
+          <FontAwesomeIcon icon={faGithub} className="fs-5 px-2 text-dark icon-hover" />
         </a> </li>
                                 <li className="list-unstyled">
                                      <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedinIn} className="fs-5 px-2 text-dark" />
+          <FontAwesomeIcon icon={faLinkedinIn} className="fs-5 px-2 text-dark icon-hover" />
         </a>
                                 </li>
                                 <li className="list-unstyled">
                                     <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faInstagram} className="fs-5 px-2 text-dark" />
+          <FontAwesomeIcon icon={faInstagram} className="fs-5 px-2 text-dark icon-hover" />
         </a>
                                 </li>
                             </ul>
