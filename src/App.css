@@ -24,7 +24,7 @@ body {  font-family: Arial, Helvetica, sans-serif; background-color: #71d7b074;}
 .client-img{ height: 50px;  width: 50px;  border-radius: 50%; }
 
 /* ====project css==== */
-.project-wrapper { position: relative; overflow: hidden; margin-bottom: 1.5rem;}
+.project-wrapper { position: relative; overflow: hidden; margin-bottom: 1.5rem; border: 1px solid rgba(0, 0, 0, 0.824); border-radius: 8px;}
 .project-img { width: 100%; display: block; transition: 0.5s ease-in-out;}
 .project-overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; opacity: 0; transition: 0.3s ease; }
 .project-wrapper:hover .project-overlay { opacity: 1; border: 2px solid ; }

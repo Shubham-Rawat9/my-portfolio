@@ -11,7 +11,7 @@ const TypedText = () => {
       strings: [
         'Frontend Developer', 'Web Developer','Freelancer',
       ],
-      typeSpeed: 125,
+      typeSpeed: 120,
       backSpeed: 30,
       loop: true,
     });

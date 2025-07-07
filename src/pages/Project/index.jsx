@@ -124,9 +124,7 @@ const Project = () => {
                
               </div>
             </Col>
-            {/* <Col xs={12} md={6} className='d-none d-sm-block text-center'>
-             <img src={myimage} alt="image" className='img-fluid' />  
-            </Col> */}
+            
           </Row>
         </Container>
       </section>
