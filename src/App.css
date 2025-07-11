@@ -24,17 +24,20 @@ body {  font-family: Arial, Helvetica, sans-serif; background-color: #71d7b074;}
 .client-img{ height: 50px;  width: 50px;  border-radius: 50%; }
 
 /* ====project css==== */
-.project-wrapper { position: relative; overflow: hidden; margin-bottom: 1.5rem; border: 1px solid rgba(0, 0, 0, 0.824); border-radius: 8px;}
-.project-img { width: 100%; display: block; transition: 0.5s ease-in-out;}
-.project-overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; opacity: 0; transition: 0.3s ease; }
-.project-wrapper:hover .project-overlay { opacity: 1; border: 2px solid ; }
-.project-overlay a { color: #fff; background-color:  #007bff;  padding: 6px 12px; text-decoration: none; border-radius: 4px; font-size: 0.9rem; transform: scale(1.2); }
-.project-wrapper:hover .project-img { transform: scale(1.05); filter: brightness(60%); }
+.project-card { background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); transition: transform 0.3s ease;}
+.project-card:hover { transform: translateY(-8px);}
+.project-image-wrapper { position: relative;}
+.project-img { width: 100%; height: auto; display: block; border-bottom: 1px solid #ddd;}
+.overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.6); opacity: 0; display: flex; align-items: center; justify-content: center; transition: 0.3s ease-in-out; }
+.project-image-wrapper:hover .overlay {opacity: 1;}
+.view-live-btn { color: white; background-color: #007bff; padding: 10px 18px; border-radius: 5px; text-decoration: none; font-weight: 500; transition: background-color 0.2s ease;}
+.view-live-btn:hover { background-color: #0056b3;}
+.project-details p { margin: 0; font-size: 0.95rem; color: #333; }
+.tech-stack { margin-top: 8px; font-style: italic; color: #555;}
 
 /* ====social icon css==== */
 .icon-hover {transition: transform 0.3s ease-in-out; cursor: pointer; } 
 .icon-hover:hover { transform: scale(1.2);}
-
 
 
 

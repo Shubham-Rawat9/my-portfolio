@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Testimonials from "../Testimonials";
-// import myimage from '../../assets/images/developer2.png';
 import projectimg from "../../assets/images/carousel-img.jpg";
 
 const Project = () => {
@@ -18,73 +17,156 @@ const Project = () => {
                 technology.
               </p>
             </Col>
-            
+
             <Row className="py-5 justify-content-evenly">
-              <Col md={5}>
-                <div className="project-wrapper">
-                  <img src={projectimg} alt="project" className="project-img" />
-                  <div className="project-overlay">
-                    <a
-                      href="https://shoppingshirt.netlify.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      View Live
-                    </a>
+              {/* first project */}
+              <Col md={6} lg={4}>
+                <div className="project-card">
+                  <div className="project-image-wrapper">
+                    <img
+                      src={projectimg}
+                      alt="Shopping Shirt Project"
+                      className="project-img"
+                    />
+                    <div className="overlay">
+                      <a
+                        href="https://shoppingshirt.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="view-live-btn"
+                      >
+                        🔗 View Live
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="p-3">
+                    <h4 className="mb-2 fs-5">🛒 Shopping  App</h4>
+                    <p>
+                      A responsive e-commerce frontend built with React.
+                      Includes product listing, shopping cart, and modern UI
+                      design.
+                    </p>
+                    <p className="tech-stack">
+                      <strong>Tech Stack:</strong> React, Bootstrap, CSS,
+                      Netlify
+                    </p>
                   </div>
                 </div>
               </Col>
-          
-              <Col md={5}>
-               <div className="project-wrapper">
-                  <img src={projectimg} alt="project" className="project-img" />
-                  <div className="project-overlay">
-                    <a
-                      href="https://shoppingshirt.netlify.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      View Live
-                    </a>
+
+              
+            {/* second project */}
+           <Col md={6} lg={4}>
+                <div className="project-card">
+                  <div className="project-image-wrapper">
+                    <img
+                      src={projectimg}
+                      alt="Shopping Shirt Project"
+                      className="project-img"
+                    />
+                    <div className="overlay">
+                      <a
+                        href="https://shoppingshirt.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="view-live-btn"
+                      >
+                        🔗 View Live
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="p-3">
+                    <h4 className="mb-2 fs-5">🛒 Shopping App</h4>
+                    <p>
+                      A responsive e-commerce frontend built with React.
+                      Includes product listing, shopping cart, and modern UI
+                      design.
+                    </p>
+                    <p className="tech-stack">
+                      <strong>Tech Stack:</strong> React, Bootstrap, CSS,
+                      Netlify
+                    </p>
                   </div>
                 </div>
               </Col>
             </Row>
 
             <Row className="py-2 justify-content-evenly">
-               <Col md={5}>
-                <div className="project-wrapper">
-                  <img src={projectimg} alt="project" className="project-img" />
-                  <div className="project-overlay">
-                    <a
-                      href="https://shoppingshirt.netlify.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      View Live
-                    </a>
+              {/* third project */}
+              <Col md={6} lg={4}>
+                <div className="project-card">
+                  <div className="project-image-wrapper">
+                    <img
+                      src={projectimg}
+                      alt="Shopping Shirt Project"
+                      className="project-img"
+                    />
+                    <div className="overlay">
+                      <a
+                        href="https://shoppingshirt.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="view-live-btn"
+                      >
+                        🔗 View Live
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="p-3">
+                    <h4 className="mb-2 fs-5">🛒 Shopping  App</h4>
+                    <p>
+                      A responsive e-commerce frontend built with React.
+                      Includes product listing, shopping cart, and modern UI
+                      design.
+                    </p>
+                    <p className="tech-stack">
+                      <strong>Tech Stack:</strong> React, Bootstrap, CSS,
+                      Netlify
+                    </p>
                   </div>
                 </div>
               </Col>
 
-              <Col md={5}>
-                
-                 <div className="project-wrapper">
-                  <img src={projectimg} alt="project" className="project-img" />
-                  <div className="project-overlay">
-                    <a
-                      href="https://shoppingshirt.netlify.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      View Live
-                    </a>
+                {/* four project */}
+
+                <Col md={6} lg={4}>
+                <div className="project-card">
+                  <div className="project-image-wrapper">
+                    <img
+                      src={projectimg}
+                      alt="Shopping Shirt Project"
+                      className="project-img"
+                    />
+                    <div className="overlay">
+                      <a
+                        href="https://shoppingshirt.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="view-live-btn"
+                      >
+                        🔗 View Live
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="p-3">
+                    <h4 className="mb-2 fs-5">🛒 Shopping  App</h4>
+                    <p>
+                      A responsive e-commerce frontend built with React.
+                      Includes product listing, shopping cart, and modern UI
+                      design.
+                    </p>
+                    <p className="tech-stack">
+                      <strong>Tech Stack:</strong> React, Bootstrap, CSS,
+                      Netlify
+                    </p>
                   </div>
                 </div>
               </Col>
             </Row>
-
-           
           </Row>
           <Row className="py-5">
             <Col
@@ -95,14 +177,13 @@ const Project = () => {
               <div className="text-center">
                 <h4>Do you have any Project? Let’s Talk</h4>
                 <p className="py-2">
-                  {" "}
                   I have worked on a variety of frontend projects that reflect
                   my skills in HTML, CSS, JavaScript, and modern frameworks like
                   React. From responsive portfolio websites to dynamic web apps,
                   each project helped me improve in design, performance, and
                   user experience. My focus is always on clean code, usability,
                   and mobile-friendly layouts. You can check out some of my work
-                  below or visit my{" "}
+                  below or visit my
                   <a
                     className="text-decoration-none text-dark"
                     href="https://github.com/Shubham-Rawat9"
@@ -121,10 +202,8 @@ const Project = () => {
                 >
                   Hire me
                 </a>
-               
               </div>
             </Col>
-            
           </Row>
         </Container>
       </section>

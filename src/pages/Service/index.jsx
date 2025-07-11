@@ -3,10 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ServiceCard from '../../components/ServiceCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode, faMobileAlt, faPalette, faSearch } from '@fortawesome/free-solid-svg-icons';
+// import SkillsSection from '../../components/Skill';
 
 
 const Service = () => {
         return (
+                <>
                 <section>
                         <Container>
                                 <Row className='text-center'>
@@ -45,6 +47,9 @@ const Service = () => {
                                
                         </Container>
                 </section>
+
+                {/* <SkillsSection/> */}
+                </>
         )
 }
 
