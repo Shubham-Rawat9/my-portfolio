@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Container, Row ,Col} from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import myimage from '../../assets/images/developer2.png';
+import Aos from 'aos';
 
 const About = () => {
+  useEffect(() =>{
+    AOS.refresh();
+  })
+  
   return (
-    <section>
+    <section data-aos="fade-up" >
    <Container className='py-5'>
     <Row>
       
@@ -12,10 +19,12 @@ const About = () => {
 
      
       <Col md={5}  className='d-none d-md-block'>
-      <img src={myimage} alt="image" className='img-fluid' />
+      <img src={myimage} alt="image" className='img-fluid' data-aos="fade-right"
+            />
       </Col>
-        <Col xs={12} md={7} className='d-flex flex-column justify-content-center align-items-center text-center text-md-start'>
-        <span className="fs-5   py-2">Welcome to my web Developer portfolio! i'm Shubham Rawat a skilled and
+        <Col xs={12} md={7} className='d-flex flex-column justify-content-center align-items-center text-center text-md-start'  data-aos="fade-left"
+            >
+        <span className="fs-5 py-2">Welcome to my web Developer portfolio! i'm Shubham Rawat a skilled and
                             creative web developer
                             with a passion for creating beautiful,responsive,and user friendly Websites. i've worked on
                             a variety of web Projects, ranging from personal E-commerce platforms. </span>
@@ -26,13 +35,6 @@ const About = () => {
                             <li className="mb-2"><span className="fw-semibold text-dark fs-4">Email :</span><a className="ms-2 fs-5 text-decoration-none text-dark" href="mailto:shubhmarawat97614@gmail.com">shubhamrawat@gmail.com</a></li>
                             <li className="mb-2"><span className="fw-semibold text-dark fs-4">Phone :</span><a className="txt-head text-decoration-none text-dark ms-2 fs-5" href="tel:+917249983416">+917249983416</a></li>
                         </ul>
-                         
-   
-
-
-
-          
-
             </Col>
     </Row>
    </Container>

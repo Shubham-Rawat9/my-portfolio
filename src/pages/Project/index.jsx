@@ -2,11 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Testimonials from "../Testimonials";
 import projectimg from "../../assets/images/carousel-img.jpg";
+import envato from "../../assets/images/landing-2.webp";
+
 
 const Project = () => {
   return (
     <>
-      <section>
+      <section data-aos="fade-in">
         <Container>
           <Row className="text-center d-flex align-items-center">
             <Col>
@@ -20,7 +22,7 @@ const Project = () => {
 
             <Row className="py-5 justify-content-evenly">
               {/* first project */}
-              <Col md={6} lg={4}>
+              <Col md={6} lg={4} data-aos="zoom-in-up">
                 <div className="project-card">
                   <div className="project-image-wrapper">
                     <img
@@ -57,17 +59,17 @@ const Project = () => {
 
               
             {/* second project */}
-           <Col md={6} lg={4}>
+           <Col md={6} lg={4} data-aos="zoom-in-up">
                 <div className="project-card">
                   <div className="project-image-wrapper">
                     <img
-                      src={projectimg}
-                      alt="Shopping Shirt Project"
+                      src={envato}
+                      alt="envato gaming"
                       className="project-img"
                     />
                     <div className="overlay">
                       <a
-                        href="https://shoppingshirt.netlify.app/"
+                        href="https://envato-gaming.netlify.app/"
                         target="_blank"
                         rel="noreferrer"
                         className="view-live-btn"
@@ -78,14 +80,12 @@ const Project = () => {
                   </div>
 
                   <div className="p-3">
-                    <h4 className="mb-2 fs-5">🛒 Shopping App</h4>
+                    <h4 className="mb-2 fs-5">🎮 Envato template</h4>
                     <p>
-                      A responsive e-commerce frontend built with React.
-                      Includes product listing, shopping cart, and modern UI
-                      design.
+                    This is a modern gaming website built for showcasing trending games, player stats, and live tournaments.
                     </p>
                     <p className="tech-stack">
-                      <strong>Tech Stack:</strong> React, Bootstrap, CSS,
+                      <strong>Tech Stack:</strong>  Bootstrap, CSS,
                       Netlify
                     </p>
                   </div>
@@ -95,7 +95,7 @@ const Project = () => {
 
             <Row className="py-2 justify-content-evenly">
               {/* third project */}
-              <Col md={6} lg={4}>
+              <Col md={6} lg={4} data-aos="zoom-in-up">
                 <div className="project-card">
                   <div className="project-image-wrapper">
                     <img
@@ -132,7 +132,7 @@ const Project = () => {
 
                 {/* four project */}
 
-                <Col md={6} lg={4}>
+                <Col md={6} lg={4} data-aos="zoom-in-up">
                 <div className="project-card">
                   <div className="project-image-wrapper">
                     <img
@@ -175,8 +175,8 @@ const Project = () => {
               className=" text-md-start d-flex flex-column m-auto justify-content-center align-items-center align-items-md-start"
             >
               <div className="text-center">
-                <h4>Do you have any Project? Let’s Talk</h4>
-                <p className="py-2">
+                <h4 data-aos="zoom-in">Do you have any Project? Let’s Talk</h4>
+                <p className="py-2" data-aos="zoom-out">
                   I have worked on a variety of frontend projects that reflect
                   my skills in HTML, CSS, JavaScript, and modern frameworks like
                   React. From responsive portfolio websites to dynamic web apps,
@@ -188,7 +188,7 @@ const Project = () => {
                     className="text-decoration-none text-dark"
                     href="https://github.com/Shubham-Rawat9"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer" 
                   >
                     {" "}
                     GitHub
@@ -198,7 +198,7 @@ const Project = () => {
 
                 <a
                   className="btn btn-outline-dark border-dark m-auto"
-                  href="mailto:shubhmarawat97614@gmail.com"
+                  href="mailto:shubhmarawat97614@gmail.com" 
                 >
                   Hire me
                 </a>

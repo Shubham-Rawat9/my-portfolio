@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import Loader from './components/Loader';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -9,7 +11,7 @@ import './App.css';
 
 function App() {
   const [loading , setLoading] = useState(true);
-
+// loader useEffect
   useEffect(() => {
     const timer = setTimeout(() =>{
         setLoading(false);
@@ -18,6 +20,14 @@ function App() {
     return () => clearTimeout(timer);
   }, [])
   
+  // aos useEffect
+    useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      offset: 100,
+    });
+  }, []);
 
 
   return (

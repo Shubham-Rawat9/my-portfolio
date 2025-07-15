@@ -15,7 +15,7 @@ const Contact = () => {
         </Col>            
     </Row>
     <Row className='gy-4 py-5 text-center text-md-start'>
-        <Col xs={12} md={4} className='box-hover text-center'>
+        <Col xs={12} md={4} className='box-hover text-center' data-aos="zoom-out" data-aos-delay="200">
          
           
            <FontAwesomeIcon icon={faMobile} className="fs-4 text-muted" />
@@ -26,7 +26,7 @@ const Contact = () => {
                             
                             </div>
         </Col>
-        <Col xs={12} md={4} className='box-hover text-center'>
+        <Col xs={12} md={4} className='box-hover text-center' data-aos="zoom-out" data-aos-delay="200">
            <FontAwesomeIcon icon={faPaperPlane} className="fs-4 text-muted" />
 
                             <div className="py-3">
@@ -35,7 +35,7 @@ const Contact = () => {
                                     href="mailto:shubhmarawat97614@gmail.com">shubamrawat97614@gmail.com</a></p>
                                     </div>
         </Col>
-        <Col xs={12} md={4} className='box-hover text-center'>
+        <Col xs={12} md={4} className='box-hover text-center' data-aos="zoom-out" data-aos-delay="200">
            <FontAwesomeIcon icon={faLink} className="fs-4 text-muted" />
 
                             <div className="py-3">

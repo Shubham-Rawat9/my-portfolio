@@ -12,7 +12,7 @@ const Home = () => (
     <section>
       <Container>
         <Row className="align-items-center">
-          <Col xs={7} sm={10} md={7} lg={6} className=' mx-auto text-center text-md-start position-relative'>
+          <Col xs={7} sm={10} md={7} lg={6} className=' mx-auto text-center text-md-start position-relative'  data-aos="fade-right">
             <h2 className="txt-head">
               Hi there, I am{' '}
               <span className="text-muted fs-1 lh-1 font-monospace fw-bold">Shubham Rawat</span> <br />
@@ -20,19 +20,18 @@ const Home = () => (
               <span className="text-secondary">
                 <TypedText />
               </span>
-              {/* <span className="typed-cursor typed-cursor--blink px-3" aria-hidden="true">|</span> */}
+            
             </h2>
 
             <div className="py-5 ">
-              {/* <a className="btn btn-outline-dark border-dark m-auto" href="#">Download CV</a> */}
               <a className="btn btn-outline-dark border-dark m-auto" href="/cv.pdf" download> Download CV </a>
 
             </div>
           </Col>
 
-          <Col md={5} xs={12} sm={2} lg={6}   className="d-none d-md-flex justify-content-center align-items-center">
+          <Col md={5} xs={12} sm={2} lg={6}   className="d-none d-md-flex justify-content-center align-items-center" data-aos="fade-left">
            
-            <img src={myimage} alt="image" className="img-fluid"  />
+            <img src={myimage} alt="image" className="img-fluid"    />
           </Col>
         </Row>
       </Container>
