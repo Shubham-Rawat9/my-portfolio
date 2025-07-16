@@ -1,14 +1,9 @@
 import React, { useEffect } from 'react'
 import { Container, Row ,Col} from 'react-bootstrap';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
 import myimage from '../../assets/images/developer2.png';
-import Aos from 'aos';
 
 const About = () => {
-  useEffect(() =>{
-    AOS.refresh();
-  })
+ 
   
   return (
     <section data-aos="fade-up" >
