@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Loader from './components/Loader';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import AppRoutes from './Routes/Routes';  
+import AppRoutes from './Routes/Routes'; 
 import './App.css';
 
 

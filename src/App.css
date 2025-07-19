@@ -39,6 +39,21 @@ body {  font-family: Arial, Helvetica, sans-serif; background-color: #F5F5F5;}
 .icon-hover {transition: transform 0.3s ease-in-out; cursor: pointer; } 
 .icon-hover:hover { transform: scale(1.2);}
 
+/* button css */
+.portfolio-btn { position: relative; background-color: #ffffff; color: #1f2937; border: 2px solid #1f2937; padding: 12px 24px; font-size: 1rem; border-radius: 8px; cursor: pointer; font-weight: 600; transition: all 0.3s ease; text-decoration:none;}
+.portfolio-btn::after { content: ""; position: absolute; bottom: 8px; left: 24px; width: calc(100% - 48px); height: 2px; background-color: currentColor; transition: width 0.3s ease; }
+.portfolio-btn:hover { background-color: #f9fafb; color: #111827; transform: scale(1.02); }
+.portfolio-btn:hover::after { width: 0;}
+
+
+
+
+
+
+
+
+
+
 
 
 

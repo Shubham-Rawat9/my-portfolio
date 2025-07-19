@@ -197,7 +197,7 @@ const Project = () => {
                 </p>
 
                 <a
-                  className="btn btn-outline-dark border-dark m-auto"
+                  className="portfolio-btn m-auto"
                   href="mailto:shubhmarawat97614@gmail.com" 
                 >
                   Hire me

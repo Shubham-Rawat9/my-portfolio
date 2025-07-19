@@ -15,18 +15,18 @@ const Testimonials = () =>{
                 </Col>
 
             </Row>
-            <Row className=" gy-4 py-4 justify-content-evenly">
-                <Col xs={12} sm={10} md={3} className=" border border-1 bg-white py-5 box-hover" data-aos="fade-right">
+          <Row className=" gy-4 py-4 justify-content-evenly">
+                <Col xs={12} sm={10} md={3} className=" border border-1 bg-white py-5 box-hover">
             
-                    <TestimonialsCard review={'“We hired Shubham Rawat to build a custom web app under a tight deadline—and they absolutely delivered. Clean code, smart solutions, and always one step ahead.”'}  name={"angel priya"} img={fstimg} role={"HR"} />
+                    <TestimonialsCard review={'“We hired Shubham Rawat to build a custom web app under a tight deadline—and they absolutely delivered. Clean code, smart solutions, and always one step ahead.”'}  name={"Nina Patel"} img={fstimg} role={"Digital Strategist at Flow Agency"} />
                 </Col>
 
-                <Col xs={12} sm={10} md={3} className=" border border-1 bg-white py-5 box-hover" data-aos="zoom-in-up">
-                    <TestimonialsCard review={'“Shubham Rawat transformed our outdated website into a modern, responsive platform that our customers love. They were quick, communicative, and extremely knowledgeable throughout the entire process”'}  name={"angel priya"} img={secimg} role={"HR"} />
+                <Col xs={12} sm={10} md={3} className=" border border-1 bg-white py-5 box-hover">
+                    <TestimonialsCard review={'“Shubham Rawat transformed our outdated website into a modern, responsive platform that our customers love. They were quick, communicative, and extremely knowledgeable throughout the entire process”'}  name={"Isla Moore"} img={secimg} role={" Creative Director"} />
                     
                 </Col>
-                <Col xs={12} sm={10} md={3} className=" border border-1 bg-white py-5 box-hover" data-aos="fade-left">
-                    <TestimonialsCard review={'“It’s rare to find a developer who is both technically sharp and easy to work with. Shubham Rawat explained everything clearly, offered helpful suggestions, and built a fast, secure site that scaled with our needs.”'}  name={"angel priya"} img={thdimg} role={"HR"} />
+                <Col xs={12} sm={10} md={3} className=" border border-1 bg-white py-5 box-hover">
+                    <TestimonialsCard review={'“It’s rare to find a developer who is both technically sharp and easy to work with. Shubham Rawat explained everything clearly, offered helpful suggestions, and built a fast, secure site that scaled with our needs.”'}  name={"Rachel G"} img={thdimg} role={"Small Business Owner"} />
                     
                 </Col>
 

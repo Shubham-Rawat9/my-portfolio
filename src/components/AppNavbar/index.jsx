@@ -20,7 +20,7 @@ const AppNavbar = () => {
       {["lg"].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="#"><span className="fw-lighter px-5 fs-4 fw-medium font-monospace">Shubham Rawat</span></Navbar.Brand>
+            <Navbar.Brand href="#"><span className="fw-lighter px-5 fs-4 fw-medium">Shubham Rawat</span></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} onClick={handleShow} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

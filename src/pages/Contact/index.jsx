@@ -22,7 +22,7 @@ const Contact = () => {
                             <div className="py-3">
                             <h5 className="text-capitalize">contact number</h5>
                             
-                            <a className="txt-head text-decoration-none text-dark" href="tel:+917249983416">✌️</a>
+                            <a className="txt-head text-decoration-none text-dark" href="tel:+917249983416">  Call Now</a>
                             
                             </div>
         </Col>
@@ -47,7 +47,7 @@ const Contact = () => {
           <FontAwesomeIcon icon={faGithub} className="fs-5 px-2 text-dark icon-hover" />
         </a> </li>
                                 <li className="list-unstyled">
-                                     <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
+                                     <a href="https://www.linkedin.com/in/shubham-rawat" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedinIn} className="fs-5 px-2 text-dark icon-hover" />
         </a>
                                 </li>
