@@ -47,7 +47,7 @@ const Contact = () => {
           <FontAwesomeIcon icon={faGithub} className="fs-5 px-2 text-dark icon-hover" />
         </a> </li>
                                 <li className="list-unstyled">
-                                     <a href="https://www.linkedin.com/in/shubham-rawat" target="_blank" rel="noopener noreferrer">
+                                     <a href="https://www.linkedin.com/in/shubham-rawat-b99a91374" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedinIn} className="fs-5 px-2 text-dark icon-hover" />
         </a>
                                 </li>
