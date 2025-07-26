@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Testimonials from "../Testimonials";
 import projectimg from "../../assets/images/carousel-img.jpg";
 import envato from "../../assets/images/landing-2.webp";
-
+import netflix from "../../assets/images/netflix-banner.jpg";
 
 const Project = () => {
   return (
@@ -43,7 +43,7 @@ const Project = () => {
                   </div>
 
                   <div className="p-3">
-                    <h4 className="mb-2 fs-5">🛒 Shopping  App</h4>
+                    <h4 className="mb-2 fs-5">🛒 Shopping App</h4>
                     <p>
                       A responsive e-commerce frontend built with React.
                       Includes product listing, shopping cart, and modern UI
@@ -57,9 +57,8 @@ const Project = () => {
                 </div>
               </Col>
 
-              
-            {/* second project */}
-           <Col md={6} lg={4} data-aos="zoom-in-up">
+              {/* second project */}
+              <Col md={6} lg={4} data-aos="zoom-in-up">
                 <div className="project-card">
                   <div className="project-image-wrapper">
                     <img
@@ -82,11 +81,11 @@ const Project = () => {
                   <div className="p-3">
                     <h4 className="mb-2 fs-5">🎮 Envato template</h4>
                     <p>
-                    This is a modern gaming website built for showcasing trending games, player stats, and live tournaments.
+                      This is a modern gaming website built for showcasing
+                      trending games, player stats, and live tournaments.
                     </p>
                     <p className="tech-stack">
-                      <strong>Tech Stack:</strong>  Bootstrap, CSS,
-                      Netlify
+                      <strong>Tech Stack:</strong> Bootstrap, CSS, Netlify
                     </p>
                   </div>
                 </div>
@@ -94,7 +93,43 @@ const Project = () => {
             </Row>
 
             <Row className="py-2 justify-content-evenly">
+
               {/* third project */}
+              <Col md={6} lg={4} data-aos="zoom-in-up">
+                <div className="project-card">
+                  <div className="project-image-wrapper">
+                    <img
+                      src={netflix}
+                      alt="Shopping Shirt Project"
+                      className="project-img"
+                    />
+                    <div className="overlay">
+                      <a
+                        href="https://https://netflik-clone-lite.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="view-live-btn"
+                      >
+                        🔗 View Live
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="p-3">
+                    <h4 className="mb-2 fs-5">🅝 Netflix Clone</h4>
+                    <p>
+                      This is a Netflix clone where I’ve built the UI only.  Just a front-end project to practice design and layout. No backend or real streaming features yet.
+                    </p>
+                    <p className="tech-stack">
+                      <strong>Tech Stack:</strong> React, Bootstrap, CSS,
+                      Netlify
+                    </p>
+                  </div>
+                </div>
+              </Col>
+
+              {/* four project */}
+
               <Col md={6} lg={4} data-aos="zoom-in-up">
                 <div className="project-card">
                   <div className="project-image-wrapper">
@@ -116,44 +151,7 @@ const Project = () => {
                   </div>
 
                   <div className="p-3">
-                    <h4 className="mb-2 fs-5">🛒 Shopping  App</h4>
-                    <p>
-                      A responsive e-commerce frontend built with React.
-                      Includes product listing, shopping cart, and modern UI
-                      design.
-                    </p>
-                    <p className="tech-stack">
-                      <strong>Tech Stack:</strong> React, Bootstrap, CSS,
-                      Netlify
-                    </p>
-                  </div>
-                </div>
-              </Col>
-
-                {/* four project */}
-
-                <Col md={6} lg={4} data-aos="zoom-in-up">
-                <div className="project-card">
-                  <div className="project-image-wrapper">
-                    <img
-                      src={projectimg}
-                      alt="Shopping Shirt Project"
-                      className="project-img"
-                    />
-                    <div className="overlay">
-                      <a
-                        href="https://shoppingshirt.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="view-live-btn"
-                      >
-                        🔗 View Live
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="p-3">
-                    <h4 className="mb-2 fs-5">🛒 Shopping  App</h4>
+                    <h4 className="mb-2 fs-5">🛒 Shopping App</h4>
                     <p>
                       A responsive e-commerce frontend built with React.
                       Includes product listing, shopping cart, and modern UI
@@ -188,7 +186,7 @@ const Project = () => {
                     className="text-decoration-none text-dark"
                     href="https://github.com/Shubham-Rawat9"
                     target="_blank"
-                    rel="noopener noreferrer" 
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     GitHub
@@ -198,7 +196,7 @@ const Project = () => {
 
                 <a
                   className="portfolio-btn m-auto"
-                  href="mailto:shubhmarawat97614@gmail.com" 
+                  href="mailto:shubhmarawat97614@gmail.com"
                 >
                   Hire me
                 </a>
