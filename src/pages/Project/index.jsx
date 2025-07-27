@@ -105,7 +105,7 @@ const Project = () => {
                     />
                     <div className="overlay">
                       <a
-                        href="https://https://netflik-clone-lite.netlify.app/"
+                        href="https://netflik-clone-lite.netlify.app/"
                         target="_blank"
                         rel="noreferrer"
                         className="view-live-btn"
