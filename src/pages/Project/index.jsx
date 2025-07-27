@@ -4,6 +4,7 @@ import Testimonials from "../Testimonials";
 import projectimg from "../../assets/images/carousel-img.jpg";
 import envato from "../../assets/images/landing-2.webp";
 import netflix from "../../assets/images/netflix-banner.jpg";
+import cahee from "../../assets/images/1.png";
 
 const Project = () => {
   return (
@@ -43,7 +44,7 @@ const Project = () => {
                   </div>
 
                   <div className="p-3">
-                    <h4 className="mb-2 fs-5">🛒 Shopping App</h4>
+                    <h4 className="mb-2 fs-5">🛒 T-store Template</h4>
                     <p>
                       A responsive e-commerce frontend built with React.
                       Includes product listing, shopping cart, and modern UI
@@ -79,13 +80,12 @@ const Project = () => {
                   </div>
 
                   <div className="p-3">
-                    <h4 className="mb-2 fs-5">🎮 Envato template</h4>
+                    <h4 className="mb-2 fs-5">🎮 Envato Template</h4>
                     <p>
-                      This is a modern gaming website built for showcasing
-                      trending games, player stats, and live tournaments.
+                  Designed a sleek, responsive UI for a gaming site with a bright and clean design the design is fully responsive.
                     </p>
                     <p className="tech-stack">
-                      <strong>Tech Stack:</strong> Bootstrap, CSS, Netlify
+                      <strong>Tech Stack:</strong> Html, CSS, Bootstrap, Netlify
                     </p>
                   </div>
                 </div>
@@ -118,10 +118,10 @@ const Project = () => {
                   <div className="p-3">
                     <h4 className="mb-2 fs-5">🅝 Netflix Clone</h4>
                     <p>
-                      This is a Netflix clone where I’ve built the UI only.  Just a front-end project to practice design and layout. No backend or real streaming features yet.
+                      A Netflix clone with UI only a front-end project to practice design and layout. No backend or real streaming features yet.
                     </p>
                     <p className="tech-stack">
-                      <strong>Tech Stack:</strong> React, Bootstrap, CSS,
+                      <strong>Tech Stack:</strong> React, Tailwind, CSS,
                       Netlify
                     </p>
                   </div>
@@ -134,13 +134,13 @@ const Project = () => {
                 <div className="project-card">
                   <div className="project-image-wrapper">
                     <img
-                      src={projectimg}
+                      src={cahee}
                       alt="Shopping Shirt Project"
                       className="project-img"
                     />
                     <div className="overlay">
                       <a
-                        href="https://shoppingshirt.netlify.app/"
+                        href="https://caheetemplate.netlify.app/"
                         target="_blank"
                         rel="noreferrer"
                         className="view-live-btn"
@@ -151,14 +151,13 @@ const Project = () => {
                   </div>
 
                   <div className="p-3">
-                    <h4 className="mb-2 fs-5">🛒 Shopping App</h4>
+                    <h4 className="mb-2 fs-5">🎨 Cahee Template</h4>
                     <p>
-                      A responsive e-commerce frontend built with React.
-                      Includes product listing, shopping cart, and modern UI
-                      design.
+                    I have created a simple and clean template.
+It is easy to customize and suitable for various uses.
                     </p>
                     <p className="tech-stack">
-                      <strong>Tech Stack:</strong> React, Bootstrap, CSS,
+                      <strong>Tech Stack:</strong> Html, Bootstrap, CSS,
                       Netlify
                     </p>
                   </div>
