@@ -5,6 +5,7 @@ import projectimg from "../../assets/images/carousel-img.jpg";
 import envato from "../../assets/images/landing-2.webp";
 import netflix from "../../assets/images/netflix-banner.jpg";
 import cahee from "../../assets/images/1.png";
+import wapik from "../../assets/images/benner_bg.jpg";
 
 const Project = () => {
   return (
@@ -98,20 +99,9 @@ const Project = () => {
               <Col md={6} lg={4} data-aos="zoom-in-up">
                 <div className="project-card">
                   <div className="project-image-wrapper">
-                    <img
-                      src={netflix}
-                      alt="Shopping Shirt Project"
-                      className="project-img"
-                    />
+                    <img src={netflix} alt="Shopping Shirt Project" className="project-img"/>
                     <div className="overlay">
-                      <a
-                        href="https://netflik-clone-lite.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="view-live-btn"
-                      >
-                        🔗 View Live
-                      </a>
+                      <a href="https://netflik-clone-lite.netlify.app/" target="_blank" rel="noreferrer" className="view-live-btn">🔗 View Live</a>
                     </div>
                   </div>
 
@@ -120,10 +110,7 @@ const Project = () => {
                     <p>
                       A Netflix clone with UI only a front-end project to practice design and layout. No backend or real streaming features yet.
                     </p>
-                    <p className="tech-stack">
-                      <strong>Tech Stack:</strong> React, Tailwind, CSS,
-                      Netlify
-                    </p>
+                    <p className="tech-stack"><strong>Tech Stack:</strong> React, Tailwind, CSS, Netlify </p>
                   </div>
                 </div>
               </Col>
@@ -133,37 +120,62 @@ const Project = () => {
               <Col md={6} lg={4} data-aos="zoom-in-up">
                 <div className="project-card">
                   <div className="project-image-wrapper">
-                    <img
-                      src={cahee}
-                      alt="Shopping Shirt Project"
-                      className="project-img"
-                    />
+                    <img src={cahee} alt="Shopping Shirt Project" className="project-img" />
                     <div className="overlay">
-                      <a
-                        href="https://caheetemplate.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="view-live-btn"
-                      >
-                        🔗 View Live
-                      </a>
+                      <a href="https://caheetemplate.netlify.app/" target="_blank" rel="noreferrer" className="view-live-btn">🔗 View Live</a>
                     </div>
                   </div>
 
                   <div className="p-3">
                     <h4 className="mb-2 fs-5">🎨 Cahee Template</h4>
-                    <p>
-                    I have created a simple and clean template.
-It is easy to customize and suitable for various uses.
-                    </p>
-                    <p className="tech-stack">
-                      <strong>Tech Stack:</strong> Html, Bootstrap, CSS,
-                      Netlify
-                    </p>
+                    <p> I have created a simple and clean template.It is easy to customize and suitable for various uses. </p>
+                    <p className="tech-stack"> <strong>Tech Stack:</strong> Html, Bootstrap, CSS, Netlify</p>
                   </div>
                 </div>
               </Col>
             </Row>
+
+             <Row className="py-3 justify-content-evenly">
+
+              {/* five project */}
+              <Col md={6} lg={4} data-aos="zoom-in-up">
+                <div className="project-card">
+                  <div className="project-image-wrapper">
+                    <img src={wapik} alt="Shopping Shirt Project" className="project-img"/>
+                    <div className="overlay">
+                      <a href="https://wapik-temp.netlify.app/" target="_blank" rel="noreferrer" className="view-live-btn">🔗 View Live</a>
+                    </div>
+                  </div>
+
+                  <div className="p-3">
+                    <h4 className="mb-2 fs-5">🎨 Wapik Template</h4>
+                    <p> I have created a simple and clean template.It is easy to customize and suitable for various uses. </p>
+                   
+                    <p className="tech-stack"><strong>Tech Stack:</strong> Html,  CSS, Bootstrap, Netlify </p>
+                  </div>
+                </div>
+              </Col>
+
+              {/* six project */}
+
+              <Col md={6} lg={4} data-aos="zoom-in-up">
+                {/* <div className="project-card">
+                  <div className="project-image-wrapper">
+                    <img src={cahee} alt="Shopping Shirt Project" className="project-img" />
+                    <div className="overlay">
+                      <a href="https://caheetemplate.netlify.app/" target="_blank" rel="noreferrer" className="view-live-btn">🔗 View Live</a>
+                    </div>
+                  </div>
+
+                  <div className="p-3">
+                    <h4 className="mb-2 fs-5">🎨 Cahee Template</h4>
+                    <p> I have created a simple and clean template.It is easy to customize and suitable for various uses. </p>
+                    <p className="tech-stack"> <strong>Tech Stack:</strong> Html, Bootstrap, CSS, Netlify</p>
+                  </div>
+                </div> */}
+              </Col>
+            </Row>
+
           </Row>
           <Row className="py-5">
             <Col
