@@ -6,6 +6,7 @@ import envato from "../../assets/images/landing-2.webp";
 import netflix from "../../assets/images/netflix-banner.jpg";
 import cahee from "../../assets/images/1.png";
 import wapik from "../../assets/images/benner_bg.jpg";
+import shoeimg from "../../assets/images/shoe_image.png"
 
 const Project = () => {
   return (
@@ -159,20 +160,20 @@ const Project = () => {
               {/* six project */}
 
               <Col md={6} lg={4} data-aos="zoom-in-up">
-                {/* <div className="project-card">
+                 <div className="project-card">
                   <div className="project-image-wrapper">
-                    <img src={cahee} alt="Shopping Shirt Project" className="project-img" />
+                    <img src={shoeimg} alt="brand shoe img" className="project-img" />
                     <div className="overlay">
-                      <a href="https://caheetemplate.netlify.app/" target="_blank" rel="noreferrer" className="view-live-btn">🔗 View Live</a>
+                      <a href="https://brandpage12.netlify.app/" target="_blank" rel="noreferrer" className="view-live-btn">🔗 View Live</a>
                     </div>
                   </div>
 
                   <div className="p-3">
-                    <h4 className="mb-2 fs-5">🎨 Cahee Template</h4>
-                    <p> I have created a simple and clean template.It is easy to customize and suitable for various uses. </p>
-                    <p className="tech-stack"> <strong>Tech Stack:</strong> Html, Bootstrap, CSS, Netlify</p>
+                    <h4 className="mb-2 fs-5"> 👟 Brand Page</h4>
+                    <p> I have created a simple and clean Page.It is easy to customize and suitable for various uses. </p>
+                    <p className="tech-stack"> <strong>Tech Stack:</strong> Html, Tailwind, CSS, Netlify </p>
                   </div>
-                </div> */}
+                </div> 
               </Col>
             </Row>
 
