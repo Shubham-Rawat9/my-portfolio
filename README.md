@@ -1,6 +1,5 @@
 
-
-        # My Portfolio 
+# My Portfolio 
  
                   A simple personal portfolio to showcase my work. 
 
