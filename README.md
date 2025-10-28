@@ -9,8 +9,4 @@ The website includes sections like About Me, Projects, Contact, and Resume downl
    
   [🌐 View Live Project](https://shubham-rawat.netlify.app)
 
-  [![🌐 View Live Project](https://img.shields.io/badge/Live-Demo-green)](https://shubham-rawat.netlify.app)
-
-
-
    Thanks for visiting! 😊
