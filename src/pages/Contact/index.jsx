@@ -2,7 +2,7 @@ import React from 'react'
 import { Container ,Row,Col} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMobile , faPaperPlane , faLink } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn, faInstagram , faFigma } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
   return (
@@ -43,7 +43,7 @@ const Contact = () => {
                             <ul className="d-flex justify-content-center">
                               
                                 <li className="list-unstyled">
-        <a href="https://github.com/Shubham-Rawat9" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Shubham-Rawatt" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} className="fs-5 px-2 text-dark icon-hover" />
         </a> </li>
                                 <li className="list-unstyled">
@@ -54,6 +54,12 @@ const Contact = () => {
                                 <li className="list-unstyled">
                                     <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} className="fs-5 px-2 text-dark icon-hover" />
+        </a>
+                                </li>
+
+                                <li className="list-unstyled">
+                                    <a href="https://www.figma.com/@shubhamrawat" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faFigma} className="fs-5 px-2 text-dark icon-hover" />
         </a>
                                 </li>
                             </ul>
