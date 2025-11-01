@@ -23,9 +23,11 @@ const Home = () => (
             
             </h2>
 
-            <div className="py-5 ">
+            {/* <div className="py-5 ">
               <a className="portfolio-btn  m-auto" href="/SHUBHAM RAWAT.pdf" download> Download CV </a>
-
+            </div> */}
+              <div className="py-5 ">
+              <a className="portfolio-btn  m-auto" href="/.pdf" download> Download CV </a>
             </div>
           </Col>
 
