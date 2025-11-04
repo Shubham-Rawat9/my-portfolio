@@ -4,7 +4,7 @@ import Testimonials from "../Testimonials";
 import projectimg from "../../assets/images/carousel-img.jpg";
 import envato from "../../assets/images/landing-2.webp";
 import netflix from "../../assets/images/netflix-banner.jpg";
-import cahee from "../../assets/images/1.png";
+import foodimg from "../../assets/images/image14.webp";
 import wapik from "../../assets/images/benner_bg.jpg";
 import shoeimg from "../../assets/images/shoe_image.png"
 
@@ -121,16 +121,16 @@ const Project = () => {
               <Col md={6} lg={4} data-aos="zoom-in-up">
                 <div className="project-card">
                   <div className="project-image-wrapper">
-                    <img src={cahee} alt="Shopping Shirt Project" className="project-img" />
+                    <img src={foodimg} alt="Shopping Shirt Project" className="project-img" />
                     <div className="overlay">
-                      <a href="https://caheetemplate.netlify.app/" target="_blank" rel="noreferrer" className="view-live-btn">🔗 View Live</a>
+                      <a href="https://foodelivery-web.netlify.app/" target="_blank" rel="noreferrer" className="view-live-btn">🔗 View Live</a>
                     </div>
                   </div>
 
                   <div className="p-3">
-                    <h4 className="mb-2 fs-5">🎨 Cahee Template</h4>
-                    <p> I have created a simple and clean template.It is easy to customize and suitable for various uses. </p>
-                    <p className="tech-stack"> <strong>Tech Stack:</strong> Html, Bootstrap, CSS, Netlify</p>
+                    <h4 className="mb-2 fs-5">🍽️ Food Website</h4>
+                    <p> A basic food app UI design showcasing a modern and user-friendly layout for browsing meals </p>
+                    <p className="tech-stack"> <strong>Tech Stack:</strong> Html, Tailwind, React, Netlify</p>
                   </div>
                 </div>
               </Col>
